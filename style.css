@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16PX;
+    /* font: inherit; */
+    vertical-align: baseline;
+
+}
+
+body {
+    line-height: 1.5;
+    box-sizing: border-box;
+
+}
+
+
+@font-face {
+    font-family: 'cocogoose';
+    font-style: normal;
+    font-weight: normal;
+    src: local("cocogoose"), url("./fonts/cocogoose_trial.woff") format("woff");
+}
+
+.cover {
+    background-image: url("./images/main_background.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    box-sizing: border-box;
+    background-size: 300%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    font-family: 'cocogoce';
+    height: 35%;
+    width: 100%;
+    padding: 5% 15%;
+    gap: 50%;
+
+}
+
+.cover h3,
+h1 {
+    font-family: 'cocogoose';
+    font-size: 16px;
+    font-weight: 400;
+    height: 35%;
+    color: #ec5242;
+    opacity: 100%;
+
+}
+
+.cover p {
+    color: #272a31;
+    font-family: 'cocogoose';
+    font-weight: 700;
+    font-size: 120%;
+    line-height: 24px;
+    /*  margin: 0px 200px 0px 80px; */
+}
+
+.cover img {
+
+    height: 100%;
+    width: 100%;
+    /*    margin: 0px 80px 0px 80px; */
+    mix-blend-mode: color-burn;
+}
+
+.cover_extra {
+    font-family: 'cocogoose';
+    font-size: 12px;
+    text-align: center;
+    /*  padding: 0px 50px 0px 50px; */
+    margin: 0px 0px 50px 0px;
+    background-color: #d3d3d3;
+    color: #272a31;
+
+}
+
+.menu-deployed .icon1 {
+    display: block;
+}
+
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+
+}
+
+.mobile-header li {
+    display: none;
+    list-style-type: none;
+
+}
+
+.mobile-header a {
+    font-family: 'cocogoose';
+    color: #3c3a39;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 80px 0px 80px;
+
+    gap: 1%;
+
+
+
+}
+
+.news,
+img {
+    height: 70%;
+    width: 80%;
+    padding: 5% 8%
+        /*  font-family: 'cocogoose'; */
+}
+
+
+.news,
+h4,
+strong {
+    font-family: 'Lato', sans-serif;
+    font-size: 110%;
+    text-align: center;
+
+}
+
+.news,
+p {
+    font-size: 100%;
+}
+
+footer {
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #3c3a39;
+    /*  height: 30vh; */
+    width: 100%;
+    bottom: 0px;
+}
+
+header {
+    /*  background-color:red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 6% 0% 6%;
+}
+
+.hero {
+
+    display: flex;
+
+
+}
+.heros-img {
+height: auto;
+    width: auto;
+
+}
+
+hr {
+    width: 20%;
+    height: 1px;
+    background: #ec5242;
+    padding-left: 100px;
+
+}
+
+.logo img {
+    display: block;
+    padding-left: 20px;
+    width: 80%;
+    justify-content: center;
+}
+
+.open img {
+
+    /*   height: 150px;
+    width:200px; */
+    padding-left: 1px;
+    width: 60%;
+}
+
+.program {
+    background-image: url("./images/program_background.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    box-sizing: border-box;
+    background-size: 100%;
+    padding: 10% 0% 10% 0%;
+}
+
+.program img {
+    height: auto;
+    width: auto;
+
+}
+
+.program_in {
+    background-color: rgba(202, 185, 185, 0.4);
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    margin: 1% 10% 0% 10%;
+    padding: 1%;
+
+}
+
+.program_out {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.program h2 {
+    color: #d3d3d3;
+    border: 50px white;
+    font-size: 32px;
+}
+
+.program p {
+    font-family: 'cocogoose';
+    color: #ec5242;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    justify-items: center;
+    height: 30%;
+    margin: 1% 10% 0% 10%;
+}
+
+.program h4 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    justify-items: center;
+    height: 35%;
+    z-index: 3;
+    text-align: left;
+}
+
+.speakers {
+    display: grid;
+}
+
+#mobile_menu {
+    background-color: #3c3a39;
+    box-sizing: border-box;
+    display: none;
+    height: 100%;
+    font-family: 'cocogoose', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    left: 0;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#mobile_menu #mobile_button {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+}
+
+#mobile_menu ul {
+    list-style-type: none;
+    margin: 60px 0 0 0;
+    padding: 0;
+}
+
+#mobile_menu li {
+    border-bottom: solid 1px #6f6c6b;
+    margin: 0;
+    padding: 20px;
+
+}
+
+#mobile_menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media (min-width: 768px) {
+    .close {
+        display: none;
+    }
+
+
+    .menu-deployed li,
+    ul {
+        display: flex;
+        justify-content: space-between;
+        text-decoration-line: none;
+        padding: 24px;
+
+
+    }
+    .program p {           
+     text-align: center;        
+    }
+
+
+    .icon1 {
+        display: none;
+    }
+
+
+
+    .mobile_menu_trigger {
+        display: flex;
+    }
+
+    /*  .mobile_menu_trigger li,
+    ul {
+        
+        display: flex;
+        justify-content: space-between;
+        text-decoration-line: none;
+        padding: 24px;
+    }  */
+
+    .program_out {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0% 0% 0% 10%;
+    }
+
+    .program_in {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 250px;
+        width: 200px;
+        margin: 0% 1% 0% 0%;
+        padding: 1%;
+    }
+
+    .open {
+        display: none;
+    }
+
+}
