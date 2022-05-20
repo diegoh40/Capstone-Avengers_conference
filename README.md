@@ -8,13 +8,12 @@
 ## Built With
 
 - HTML & CSS
-- Frameworks 
 - JS 
 
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link] https://diegoh40.github.io/capstone-conference-avengers/)
 
 
 ## Getting Started
