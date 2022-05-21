@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./scripts.js"></script>
+
+    <title>Avengers Conference</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="black-bar">
+            <div class="container top-dark">
+                <ul class="top-dark-icons">
+                    <li><img src="./images/Logos/face.png" alt="logo" /></li>
+                    <li><img src="./images/Logos/twiiter.png" alt="logo" /></li>
+                    <li><a href="#program " onClick="menuClose(1);">English</a></li>
+                    <li><a href="#speakers " onClick="menuClose(1);">MyPage</a></li>
+                    <li><a href="#sponsors" onClick="menuClose(1);">Logout</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="container-header-footer">
+            <nav class="mobile-header">
+                <div class="icon1">
+                    <img src="images/mobil_menu.png" alt="hamburger menu" onClick="menuOpen(1)" />
+                </div>
+                <div class="logo">
+                    <img src="./images/logo_bogota.jpg" alt="logo" />
+                </div>
+                <ul class="menu-deployed">
+                    <li><a href="./about2.html " onClick="menuClose(1);">About</a></li>
+                    <li><a href="#program " onClick="menuClose(1);">Program</a></li>
+                    <li><a href="#speakers " onClick="menuClose(1);">Heros</a></li>
+                    <li><a href="#sponsors" onClick="menuClose(1);">Sponsor</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <div id="mobile_menu">
+        <div id="mobile_button" class="close_button" onClick="menuClose(1);">
+            <img src="images/mobil_close_menu.png" alt="close button" />
+        </div>
+        <ul>
+            <li><a href="./about2.html " onClick="menuClose(1);">About</a></li>
+            <li><a href="#program " onClick="menuClose(1);">Program</a></li>
+            <li><a href="#speakers " onClick="menuClose(1);">Heros</a></li>
+            <li><a href="#sponsors" onClick="menuClose(1);">Sponsor</a></li>
+        </ul>
+
+    </div>
+
+
+    <main>
+        <section id="cover" class="cover">
+            <div class="container">
+                <h2>"Hello! make it amazing!"</h2>
+                <h1 class="home">CREATING HIGH-PERFORMANCE
+                    TEAMS CONFERENCE
+                    BOGOTÁ 2022</h1>
+
+
+                <div class="cover_home">
+                    This event aims to bring together business leaders and teams who want to learn and understand how
+                    teamwork is managed around the world for three days of exciting talks and impressive presentations.
+                </div>
+
+
+                <p>2022.02.18(SAT)- 20(MON) </p>
+                <p>Gran Salon Corferias, Bogotá-Colombia</p>
+
+            </div>
+
+        </section>
+        <section class="program">
+            <div class="container program_titles">
+                <h2>Main Program</h2>
+                <hr>
+                <div class="program_out">
+                    <div class="program_in">
+                        <div><img src="./images/icon_01.png" alt="title" /></div>
+                        <p>Lecture</p>
+                        <h4> We will present global trends and developments and feature articles of interest that
+                            reflect the current state of design.</h4>
+                    </div>
+                    <div class="program_in">
+                        <div> <img src="./images/icon_02.png" alt="title" /></div>
+                        <p>Exhibition</p>
+                        <h4>Exhibition of works in different finishes by Colombian leads who have participated in
+                            different
+                            fairs around the world.
+                        </h4>
+
+                    </div>
+                    <div class="program_in">
+                        <div><img src="./images/icon_03.png" alt="title" /></div>
+                        <p>Forums</p>
+                        <h4> Designers from various contries speaking about their experiences and new trends.</h4>
+                    </div>
+                    <div class="program_in">
+                        <div><img src="./images/icon_04.png" alt="title" /></div>
+                        <p>Worshop</p>
+                        <h4> We will do a practical workshop, where we will explore the most used techniques for design
+                            thinking.</h4>
+                    </div>
+                    <div class="program_in">
+                        <div><img src="./images/icon_05.png" alt="title" /></div>
+                        <p>CHPT Feedback</p>
+                        <h4> We will make a small feedback in figures of these years of activity and how the design
+                            movement
+                            has grown and we will see how it has grown.</h4>
+                    </div>
+                </div>
+
+                <h2>SEE THE WHOLE PROGRAM</h2>
+
+            </div>
+        </section>
+
+        <section class="speaker_heros" id="speakers">
+            <div class="container">
+                <div class="centered-title">
+                    <h2 class="black-title">Featured Heros</h2>
+                    <hr>
+                </div>
+
+
+                <div class="heros-container"></div>
+
+            </div>
+
+        </section>
+
+        <section id="sponsors" class="sponsors">
+            <div class="container sponsors">
+                <h2 class="white-tittle">Partners</h2>
+                <hr>
+                <div class="sponsor-row">
+                    <div><img src="./images/google.png" alt="logo" /></div>
+                    <div><img src="./images/autodesk.png" alt="logo" /></div>
+                    <div><img src="./images/avengers.png" alt="logo" /></div>
+                    <div><img src="./images/makita.png" alt="logo" /></div>
+                    <div><img src="./images/stark.png" alt="logo" /></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   <!--  <div class="container-header-footer">
+        <div class="footer-home">
+            <div><img src="./images/logo_bn_bogota.png" alt="logo" /></div>
+            <p>Bogotá City 2022 Copy right reserved</p>
+        </div>       
+    </div> -->
+
+    <footer class="footer-white">
+        <div><img src="./images/logo_bn_bogota.png" alt="logo" /></div>
+        <p>Bogotá City 2022 Copy right reserved</p>
+    </footer>
+</body>
+
+</html>
