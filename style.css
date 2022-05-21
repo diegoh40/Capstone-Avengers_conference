@@ -54,10 +54,10 @@ footer img {
 .container-header-footer {
   margin: 0 10%;
   max-width: 1080px;
+
   /* padding: 0 10px; */
   width: auto;
 }
-
 
 .cover {
   background-image: url("./images/main_background.jpg");
@@ -511,15 +511,6 @@ width: 20%;
   text-align: center;
 }
 
-.top-dark {
-text-align: right;
-}
-.top-dark ul {
-  list-style-type: none;
-}
-
-
-
 @media (min-width: 768px) {
   footer {
     position: relative;
@@ -552,10 +543,6 @@ text-align: right;
     background-color: var(--main-color);
   }
 
-
-
-
-
   .partner-container {
     display: flex;
     justify-content: center;
@@ -574,6 +561,7 @@ text-align: right;
     display: flex;
     justify-content: center;
     flex-direction: column;
+
     /* margin-top: 2.5rem; */
   }
 
@@ -581,7 +569,6 @@ text-align: right;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
   }
 
   .myHeros {
@@ -631,21 +618,21 @@ text-align: right;
     height: 1px;
     color: #ec5242;
   }
-.black-bar {
-  background-color: #3e3e3e;
-  display: block;
-  font-size: 0.9rem;
-  padding: 7.5px 0;
-  width: 100%;
 
-}
+  .black-bar {
+    background-color: #3e3e3e;
+    display: block;
+    font-size: 0.9rem;
+    padding: 7.5px 0;
+    width: 100%;
+  }
 
   .container-top-dark {
-   margin: 0 auto;
-  max-width: 1080px;
-  padding: 0 10px;
-  width: 100%;
-  } 
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 0 10px;
+    width: 100%;
+  }
 
   .top-dark-icons li,
   ul {
@@ -664,7 +651,7 @@ text-align: right;
     display: flex;
     justify-content: flex-end;
     text-decoration-line: none;
-    padding: 0px 24px;
+    padding: 0 24px;
   }
 
   .icon1 {
