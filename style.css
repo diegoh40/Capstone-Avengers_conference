@@ -54,9 +54,10 @@ footer img {
 .container-header-footer {
   margin: 0 10%;
   max-width: 1080px;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   width: auto;
 }
+
 
 .cover {
   background-image: url("./images/main_background.jpg");
@@ -510,6 +511,15 @@ width: 20%;
   text-align: center;
 }
 
+.top-dark {
+text-align: right;
+}
+.top-dark ul {
+  list-style-type: none;
+}
+
+
+
 @media (min-width: 768px) {
   footer {
     position: relative;
@@ -542,6 +552,10 @@ width: 20%;
     background-color: var(--main-color);
   }
 
+
+
+
+
   .partner-container {
     display: flex;
     justify-content: center;
@@ -560,13 +574,14 @@ width: 20%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 2.5rem;
+    /* margin-top: 2.5rem; */
   }
 
   .container-header-footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
   }
 
   .myHeros {
@@ -616,18 +631,21 @@ width: 20%;
     height: 1px;
     color: #ec5242;
   }
+.black-bar {
+  background-color: #3e3e3e;
+  display: block;
+  font-size: 0.9rem;
+  padding: 7.5px 0;
+  width: 100%;
 
-  .top-dark {
-    background-color: #272a31;
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
-    width: 100%;
-  }
+}
 
-  .top-dark-icons {
-    margin-right: 200px;
-  }
+  .container-top-dark {
+   margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 10px;
+  width: 100%;
+  } 
 
   .top-dark-icons li,
   ul {
@@ -644,9 +662,9 @@ width: 20%;
   .menu-deployed li,
   ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     text-decoration-line: none;
-    padding: 24px;
+    padding: 0px 24px;
   }
 
   .icon1 {
