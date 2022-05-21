@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link] https://diegoh40.github.io/capstone-conference-avengers/)
+[Live Demo Link] (https://diegoh40.github.io/capstone-conference-avengers/)
 
 
 ## Getting Started
