@@ -46,14 +46,14 @@ footer img {
 
 .container {
   margin: 0 10%;
-  max-width: 1080px;
+  /* max-width: 1080px; */
   padding: 0 10px;
   width: auto;
 }
 
 .container-header-footer {
   margin: 0 10%;
-  max-width: 1080px;
+/*   max-width: 1080px; */
 
   /* padding: 0 10px; */
   width: auto;
@@ -430,8 +430,8 @@ hr {
   height: 100%;
   font-family: 'cocogoose', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
+  font-weight: 200;
+  font-size: 20px;
   left: 0;
   padding: 10px;
   position: fixed;
@@ -465,7 +465,7 @@ hr {
 }
 
 #mobile_menu a {
-  color: white;
+  color:#d3d3d3;
   text-decoration: none;
 }
 
@@ -629,7 +629,6 @@ width: 20%;
 
   .container-top-dark {
     margin: 0 auto;
-    max-width: 1080px;
     padding: 0 10px;
     width: 100%;
   }
