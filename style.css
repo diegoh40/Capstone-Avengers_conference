@@ -46,6 +46,7 @@ footer img {
 
 .container {
   margin: 0 10%;
+
   /* max-width: 1080px; */
   padding: 0 10px;
   width: auto;
@@ -53,7 +54,8 @@ footer img {
 
 .container-header-footer {
   margin: 0 10%;
-/*   max-width: 1080px; */
+
+  /*   max-width: 1080px; */
 
   /* padding: 0 10px; */
   width: auto;
@@ -465,7 +467,7 @@ hr {
 }
 
 #mobile_menu a {
-  color:#d3d3d3;
+  color: #d3d3d3;
   text-decoration: none;
 }
 
